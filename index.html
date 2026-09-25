@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Social Media Vpreviews -->
+<meta property="og:title" content="webSteam">
+<meta property="og:description" content="ebSteam is where you can play unblocked Web games on a Steam like interface.">
+<meta property="og:image" content="https://websteam.vercel.app/assets/banner.jpg">
+<meta property="og:type" content="website">
+
+<meta name="description" content="webSteam is where you can play unblocked Web games on a Steam like interface.">
+<meta name="keywords" content="Web Games, Steam, Unblocked">
+<title>Library - webSteam</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+</head>
+<body>
+
+  <div class="app">
+
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>LIBRARY</h1>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" class="search-icon"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.5 19l-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+          <input type="text" id="search" placeholder="Search library" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="pinned-nav">
+        <div class="game-row info-row" id="nav-info">
+          <div class="info-icon-wrap">
+            <svg viewBox="0 0 24 24" class="info-icon"><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
+          </div>
+          <div class="row-text">
+            <span class="row-name">Information</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-list" id="game-list">
+      </div>
+    </aside>
+
+    <main class="main">
+      <div id="info-page" class="info-page hidden">
+        <div class="info-page-inner" id="info-content">
+          <!-- markdown iss rendered here -->
+        </div>
+      </div>
+
+      <div id="empty-state" class="empty-state hidden">
+        <p>Select a game from the library to view it here.</p>
+      </div>
+
+      <div id="game-detail" class="game-detail hidden">
+        <div class="hero">
+          <img id="hero-banner" class="hero-banner" src="" alt="">
+          <div class="hero-shade"></div>
+          <div class="hero-content">
+            <img id="hero-logo" class="hero-logo" src="" alt="">
+          </div>
+        </div>
+
+        <div class="detail-body">
+          <div class="detail-main">
+            <div class="action-row">
+              <button id="play-btn" class="play-btn">
+                <svg viewBox="0 0 24 24" class="play-icon"><path d="M8 5v14l11-7z"/></svg>
+                <span id="play-label">PLAY</span>
+              </button>
+              <div class="status" id="status-text"></div>
+            </div>
+            <p class="description" id="game-description"></p>
+          </div>
+
+          <div class="detail-side">
+            <div class="stat-row">
+              <span class="stat-label">Developer</span>
+              <span class="stat-value" id="game-developer"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Genre</span>
+              <span class="stat-value" id="game-genre"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
