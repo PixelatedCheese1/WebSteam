@@ -1,0 +1,127 @@
+[
+  {
+    "id": "minecraft-java",
+    "name": "Minecraft: Java Edition",
+    "developer": "Mojang Studios",
+    "genre": "Sandbox",
+    "icon": "/games/minecraft-java/icon.ico",
+    "banner": "/games/minecraft-java/banner.png",
+    "logo": "/games/minecraft-java/logo.png",
+    "description": "A blocky, open-world sandbox video game where players explore, gather resources, and build anything they can imagine",
+    "url": "https://minecraft-java.vercel.app"
+  },
+  {
+    "id": "cookie-clicker",
+    "name": "Cookie Clicker",
+    "developer": "DashNet",
+    "genre": "Incremental; Clicker; Idle",
+    "icon": "/games/cookie-clicker/icon.ico",
+    "banner": "/games/cookie-clicker/banner.png",
+    "logo": "/games/cookie-clicker/logo.png",
+    "description": "Cookie Clicker is a game about making an absurd amount of cookies. To help you in this endeavor, you will recruit a wide variety of helpful cookie makers, like friendly Grandmas, Farms, Factories, and otherworldly Portals.",
+    "url": "/games/cookie-clicker"
+  },
+  {
+    "id": "cut-rope",
+    "name": "Cut the Rope",
+    "developer": "ZeptoLab",
+    "genre": "Puzzle",
+    "icon": "/games/cut-rope/icon.png",
+    "banner": "/games/cut-rope/banner.png",
+    "logo": "/games/cut-rope/logo.png",
+    "description": "Cut the Rope is a popular physics-based puzzle video game where players swipe the touchscreen to slice ropes and swing candy into the mouth of a green monster named Om Nom.",
+    "url": "/games/cut-rope"
+
+  },
+  {
+    "id": "drive-mad",
+    "name": "Drive Mad",
+    "developer": "Fancade",
+    "genre": "Strategy",
+    "icon": "/games/drive-mad/icon.png",
+    "banner": "/games/drive-mad/banner.png",
+    "logo": "/games/drive-mad/logo.png",
+    "description": "Drive Mad is an exciting physics-based driving game where balance and control matter much more than speed.",
+    "url": "/games/drive-mad"
+
+  },
+  {
+    "id": "retro-bowl",
+    "name": "Retro Bowl",
+    "developer": "New Star Games",
+    "genre": "Sports; Strategy",
+    "icon": "/games/retro-bowl/icon.jpg",
+    "banner": "/games/default/banner.png",
+    "logo": "/games/retro-bowl/logo.svg",
+    "description": "A popular 8-bit style American football video game",
+    "url": "/games/retro-bowl"
+
+  },
+  {
+    "id": "ovo",
+    "name": "OvO",
+    "developer": "Dedra Games",
+    "genre": "Platformer",
+    "icon": "/games/ovo/icon.png",
+    "banner": "/games/ovo/banner.png",
+    "logo": "/games/ovo/logo.svg",
+    "description": "Fast-paced, 2D stickman platformer game",
+    "url": "/games/ovo"
+
+  },
+  {
+    "id": "baldis-basics",
+    "name": "Baldi's Basics",
+    "developer": "Basically Games",
+    "genre": "Puzzle; Strategy",
+    "icon": "/games/baldis-basics/icon.ico",
+    "banner": "/games/baldis-basics/banner.png",
+    "logo": "/games/baldis-basics/logo.png",
+    "description": "Escape Baldi's Schoolhouse!",
+    "url": "/games/baldis-basics"
+  },
+  {
+    "id": "super-mario-64",
+    "name": "Super Mario 64",
+    "developer": "Nintendo",
+    "genre": "Platformer; Classic",
+    "icon": "/games/super-mario-64/icon.ico",
+    "banner": "/games/super-mario-64/banner.jpg",
+    "logo": "/games/super-mario-64/logo.png",
+    "description": "Super Mario 64 is a pioneering 1996 3D platform game developed by Nintendo for the Nintendo 64 console.",
+    "url": "/games/super-mario-64"
+  },
+  {
+    "id": "fnaf1",
+    "name": "Five Nights at Freddy's",
+    "developer": "Scott Cawthon",
+    "genre": "Horror",
+    "icon": "/games/fnaf1/icon.ico",
+    "banner": "/games/fnaf1/banner.png",
+    "logo": "/games/fnaf1/logo.png",
+    "description": "Welcome to your new summer job at Freddy Fazbear's Pizza, where kids and parents alike come for entertainment and food! The main attraction is Freddy Fazbear, of course; and his two friends. They are animatronic robots, programmed to please the crowds!",
+    "url": "/games/fnaf1"
+  },
+  {
+    "id": "geodash-lite",
+    "name": "Geometry Dash Lite",
+    "developer": "RopTop",
+    "genre": "Platformer; Endless Scroller",
+    "icon": "/games/geodash-lite/icon.ico",
+    "banner": "/games/geodash-lite/banner.jpg",
+    "logo": "/games/geodash-lite/logo.png",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer!",
+    "url": "/games/geodash-lite"
+  },
+  {
+    "id": "minecraft-26-2",
+    "name": "Minecraft: Java Edition (26.2)",
+    "developer": "Mojang Studios",
+    "genre": "Sandbox",
+    "icon": "/games/default/icon.ico",
+    "banner": "/games/default/banner.png",
+    "logo": "/games/minecraft-26-2/logo.svg",
+    "description": "A blocky, open-world sandbox video game where players explore, gather resources, and build anything they can imagine.                     LATEST VERSION!!!!",
+    "url": "/games/minecraft-26-2"
+  }
+]
