@@ -1,0 +1,25 @@
+name: Sync to Codeberg
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Codeberg
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          git remote add codeberg https://websteam:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/websteam/pages.git
+
+          git push codeberg HEAD:pages --force
